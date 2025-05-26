@@ -1,10 +1,10 @@
 import java.util.Date;
 
 public class Partido {
-    int idPartido;
-    Date fecha;
-    int equipoLocal;
-    int equipoVisitante;
+    private int idPartido;
+    private Date fecha;
+    private int equipoLocal;
+    private int equipoVisitante;
 
     public Partido(int idPartido, Date fecha, int equipoLocal, int equipoVisitante) {
         this.idPartido = idPartido;

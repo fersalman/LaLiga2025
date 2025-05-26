@@ -1,6 +1,6 @@
 public abstract class Persona {
-    String nombre;
-    String apellidos;
+    protected String nombre;
+    protected String apellidos;
 
     // Constructor.
 
