@@ -1,6 +1,6 @@
 public class Jugador extends Persona {
 
-    int dorsal;
+    private int dorsal;
 
     // Constructores.
 

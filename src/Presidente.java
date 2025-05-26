@@ -1,6 +1,6 @@
 public class Presidente extends Persona {
 
-    String profesion;
+    private String profesion;
 
     // Contructores.
 

@@ -1,7 +1,7 @@
 public class Entrenador extends Persona {
 
 
-    String añoNacimiento;
+    private String añoNacimiento;
 
 
     // Constructores.

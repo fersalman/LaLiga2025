@@ -1,13 +1,13 @@
 import java.util.List;
 
 public class Equipo {
-    int idEquipo;
-    String nombreEquipo;
-    int telefonoEquipo;
-    String direccionEquipo;
-    Presidente presidente;
-    Entrenador entrenador;
-    List<Jugador> jugadores;
+    private int idEquipo;
+    private String nombreEquipo;
+    private int telefonoEquipo;
+    private String direccionEquipo;
+    private Presidente presidente;
+    private Entrenador entrenador;
+    private List<Jugador> jugadores;
 
     // Constructor.
 

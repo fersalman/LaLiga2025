@@ -1,6 +1,6 @@
 public abstract class Persona {
-    String nombre;
-    String apellidos;
+    protected String nombre;
+    protected String apellidos;
 
     // Constructor.
 
@@ -30,9 +30,7 @@ public abstract class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
-                "nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
-                '}';
+        return "nombre= '" + nombre + '\'' +
+                ", apellidos='" + apellidos + "',";
     }
 }
